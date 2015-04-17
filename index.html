@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Kelly Toro</title>
+
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kelly's Notes</title>
+
+<style>
+
+h1 {
+  background-color: #08088A
+  color: black;
+  font-family: Ravie;
+  padding:15px;
+}
+
+h2 {
+	background-color: #2E9AFE;
+  font-family: Ravie;
+  padding: 5px;
+}
+
+h3 {
+  background-color: #81DAF5 ;
+  font-family: Ravie;
+  padding: 5px;
+}
+
+div {
+  background-color: #CEE3F6;
+}  
+
+b {
+  color: #04B404;
+}
+
+</style>
+
+</head>
+
+<body>
+<h1>Important Concepts</h1>
+
+<br>
+<h2>Lesson One:  Introduction to HTML</h2>
+<div>
+<h3>The Basics of the Web</h3>
+
+  <p>There are five (5) main elements of the web:
+    <ul>
+      <li>the web</li>
+      <li>HTML (The main document type of the web)</li>
+      <li>URLs (How you refer to documents on the web)</li>
+      <li>HTTP (The protocol that unites the web; that the web runs on; that computers use to 
+communicate with servers)</li>
+      <li>web applications</li>
+    </ul>
+  </p>
+</div>
+
+<br>
+
+<div>
+<h3>Vocabulary</h3>
+
+<p>
+  <b><u> World Wide Web</u>:</b> A collection of HTML documents that was invented in 
+the early 1990's, and contains roughly 30 billion pages.
+</p>
+
+<p>
+  <b><u> HTML </u>:</b>  Hyper Text Mark-up Language 
+    <ul>
+      <li>The basis for almost every web page.</li>
+      <li>What glues everything together.</li>
+      <li>The main kind of content on the web.</li>
+    </ul>  
+</p>  
+
+<p>
+<b><u> Hyper Links</u>:</b> The <em> links </em> that make the web web-like.
+</p>
+
+<p>
+<b><u>Browser</u>:</b>A program that runs on your computer to display files found on the 
+web.
+</p>
+
+<p>
+<b><u>Internet</u>:</b>The world's largest computer network.
+</p>
+
+<p>
+<b><u>HTTP</u>:</b>The main protocol of the web.
+</p>
+
+<p>
+<b><u>Servers</u>:</b>Computers that host the files that make up the web.
+</p>
+
+<p>
+The internet uses <em>HTTP</em> to communicate with you, your browser, and servers.
+</p>
+
+<p>
+HTTP Request to a <em>server</em>. The server finds the appropriate HTML document and
+sends it back to the user's computer where a <em>web browser</em> interprets the page and 
+displays it on the user's screen.
+
+<a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496">
+ This video</a> does a good job of explaining. 
+</p>
+
+<p>
+<b><u>HTML</u>:</b>stands for Hyper Text Mark-up Language.  <em> HTML </em>is made up of: 
+  <ul>
+    <li>text content (what you see)</li>
+    <li>markup (what the content looks like or how it's arranged)</li>
+    <li>references to other documents (e.g. images and videos)</li>
+    <li>links to other pages</li>
+  </ul>
+</p>  
+
+<a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48724340"> This
+  video</a> gives a good overview.
+
+<p>
+www.udacity.com/html_playground
+</p>
+</div>
+
+<br>
+
+<div>
+<h3>Tags and Elements</h3>
+<p>
+HTML documents are made of HTML <b>elements</b>. When
+  writing HTML, we tell browsers the type of each element by using HTML <b>tags</b>. A 
+  <em>void tag</em> has no content, and therefore needs no closing tag. It is often a good idea
+  to make a closing tag as soon as you make an opening tag.  
+  <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48723444">This video</a>
+  explains the distinction between elements and tags well.
+</p>
+
+<b><u>Tag Examples</u> : </b>
+  <ul>
+    <li><b>b:</b> Bold</li>
+    <li><b>em:</b> Emphasis (italics)</li>
+    <li><b>a:</b> Anchor (for  making links)</li>
+    <li><b>img:</b> Images (a void tag)</li>
+    <li><b>br:</b> Break (a void tag)</li>
+    <li><b>p:</b> Paragraph</li>
+    <li><b>u:</b> Underline</li>
+    <li><b>ul:</b> Unordered List</li>
+    <li><b>ol:</b> Ordered List</li>
+    <li><b>li:</b> List Item</li>
+  </ul>
+</div>
+
+<br>
+
+<div>
+<h3>Why Computers are Stupid</h3>
+Computers are stupid because they interpret instructions
+  literally. This makes them very unforgiving since a
+  small mistake by a programmer can cause huge problems
+  in a program.
+</div>
+
+<br>
+
+<div>
+<h3>HTML Attributes</h3>
+<!-- <TAG ATTR = "VALUE"> Contents </TAG> -->
+
+<p>
+Attributes (these days) <em>always</em> equal a value.  Tags can have multiple 
+attributes.  
+</p>
+
+<!-- Anchor Tag ~ <a href = "www.reddit.com"> derp </a> -->
+
+<p>
+In an anchor tag, href is the attribute name, the URL is the value, and within
+the contents is the link to the URL.
+</p>
+
+<!-- Image Tag ~ <img src = "URL"> alt = "text" -->
+
+<p>
+In an image tag, src stands for the source; the URL is where the image can be 
+found to download; alt stands for alternate; the alternate text is the text that gets 
+displayed should the image not load.  The alternate text is required for broken requests
+and blind people.  Because there is <u>no</u> contents to an image, there is <u>no</u>
+closing tag.
+</p>
+</div>
+
+<br>
+
+<div>
+<h3>Inline vs Block Elements</h3>
+<p>
+HTML elements are either <b>inline</b> or <b>block</b>. Block
+elements form an "invisible box" around the content inside of
+them.
+</p>
+
+<p>
+<b><u>Container Elements</u>:</b> Elements that do nothing but contain stuff inside them.
+  These elements can be used to create web pages with complex structures.
+</p> 
+  <ul>
+    <li><b>Break (b):</b> Inline</li>
+    <li><b>Paragraph (p):</b> Block</li>
+    <li><b>Span:</b> Inline (and a container element)</li>
+    <li><b>Div:</b> Block (and a container element)</li>
+  </ul>
+</div>
+
+<br>
+
+<div>
+<h2>SUMMARY</h2>
+
+  <ol>
+    <li>A <b><u>web page</u></b> is a text document written in a language called 
+<b><u>HTML</u></b>.  <b><u>Web browsers</u></b> read these documents, and then interpret, and
+display them.</li>
+    <li><b><u>Coding</u></b> happens when programmers write text in a language that a computer 
+can understand.  The computer can then follow the instructions the programmer wrote.</li>
+    <li>Computers are stupid.  Programmers need to write <em><u>exactly</u></em> the way a 
+computer understands. This is also known as writing with correct "syntax".</li>
+    <li>Programmers can't remember everything.  There are too many details to keep everything
+in your head.  You can always look it up.</li>
+    <li>Basic HTML Vocabulary:</li>
+      <ul>
+        <li><b>Tag:</b> An HTML tag is always contained within angled brackets.  Most tags have
+  an opening tag and a closing tag. <b><u>Void</u></b> tags do <em><u>not</u></em> require
+  a closing tag.</li>
+        <li><b>Element:</b> An HTML element refers to everything within a set of opening and
+closing tags.</li>
+        <li><b>Attribute:</b> This is a property of an HTML element.</li>
+      </ul>
+  </ol>
+</div>
+
+<br>
+
+<h2>Lesson Two:  Creating a Structured Document</h2>
+
+<div>
+
+<h3>Page and Structure</h3>
+
+  <p>Though some elements are invisible (like the "head" element), all visible elements are rectangular.
+  </p>  
+
+  <p>If you dig deep enough into the structure, you can read <u>all</u> the text that shows up on the page.
+  </p>
+
+  <p>The structure of all websites containing the boxes is organized tree-like.
+  </p>
+
+  <ul>
+    <li>HTML and CSS are both languages.</li>
+    <li>HTML controls the structure of a web page.</li>
+    <li>CSS controls the style of a page and how it looks.</li>
+    <li>When programmers talk about the DOM (Document Object Model) they are talking about the tree-like structure of a page.</li>
+  </ul>  
+
+  <p>An element starts and ends with a tag. In its middle there can be content. This content can be text or another tag. Each tag can have attributes with values. CSS defines the style, meaning how elements look on the page. Every element is a box but with CSS you can change the form elements are displayed on the page. However, you can break down any webpage to their boxes. Boxes can be summarized with div-tags. Within these div-tags attributes can be determined that give the box a name.
+  </p>
+</div>
+
+<br>
+
+<div>
+<h3>Vocabulary</h3>
+
+  <p>
+    <b><u> HTML</u>:</b> The language of the web.  It has specific "syntax" and rules.  The main word of HTML is a tag.
+  </p>
+
+  <p>
+    <b><u> DOM</u>:</b>  Document Object Model.  The browser builds a DOM from an HTML document.
+  </p>  
+
+  <p>
+    <b><u> CSS</u>:</b> Defines the style.  Changes how elements look on the page.  Examples include font-size, color, background, position, etc. You can change the style and see it immediately on the page.  
+  </p>
+
+  <p>
+    <b><u>Text Editor</u>:</b>A program that that helps you type text similar to document editors; but without all the extra formatting.  
+    <ul>
+      <li><b>Sublime</b>: Difficult in the beginning, but has all the languages.</li>
+      <li><b>Scratchpad</b>: For small projects; beginner-friendly; immediate speed of feedback.</li>
+      <li><b>CodePen</b>: Beginner-friendly features. Three (3) languages (HTML, CSS, Javascript).  Easy to share.</li>
+    </ul>  
+  </p>
+</div>
+
+<h2>Lesson Three: Adding CSS Style to HTML Structure</h2>  
+
+<div>
+
+<h3>Don't Repeat Yourself!!</h3>
+
+  <p>
+  Use CSS code to add style to your page.  
+  </p>  
+
+  <p>
+  <b>ADD</b> '!DOCTYPE html'
+  </p>
+
+  <p>
+  <b>ADD</b> HTML opening and closing tags.
+  </p>
+
+  <p>
+  <b>ADD</b> HEAD opening and closing tags.
+  </p>
+
+  <p>
+    <ul>
+      <li>Between the HEAD tags, you add the link to the style file.</li>
+      <li>Start typing, LINK, and then press tab.  Sublime automatically adds all the information we need except for the name of the file that contains our style information.  </li>
+    </ul>  
+  </p>
+
+  <p>
+  <b>ADD</b> BODY opening and closing tags.
+  </p>
+
+  <p>
+    <ul>
+      <li>Content goes between the BODY tags.</li>
+      <li>For readability, all content between the body tags is indented.</li>
+    </ul>  
+  </p>
+
+  <p>
+  You can add style with a separate file and link to it.  
+  </p>  
+
+  <p>
+  <b>OR</b>
+  </p>  
+
+  <p>
+  You can add style between opening and closing style tags within the HEAD section.
+  </p>  
+
+  <p>
+  Cascading Style Sheets (CSS):  The most specific rule applies to everything.
+  </p>  
+
+  <p>
+  # refers to an ID.
+  </p>  
+
+  <p>
+  . refers to class.  
+  </p>  
+
+  <p>
+  ID's are more specific than class!
+  </p>  
+
+</div>
+
+<br>
+
+</body>
+
+</html>
+
+</body>
+
+</html>
